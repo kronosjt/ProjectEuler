@@ -7,7 +7,7 @@
 ##        sum+=n
 ##
 ##print 'Sum of all multiples of 3 or 5 below 1000: ', sum
-        
+
 # Solving using Arithmetic Progression
 # If we list down the multiples of 3 & 5 we get:
 # 3 5 6 9 10 12 15 18 20 21...
@@ -39,5 +39,7 @@ while(newnum < limit):
     sum = sum + newnum
     newnum = newnum + 3 # 15+3=18 and so on
     if(newnum >= limit): break
-  
+
 print 'Sum= ', sum
+
+# just adding some comments for learning Atom
