@@ -40,6 +40,6 @@ while(newnum < limit):
     newnum = newnum + 3 # 15+3=18 and so on
     if(newnum >= limit): break
 
-print 'Sum= ', sum
+print ('Sum= ', sum)
 
 # just adding some comments for learning Atom
